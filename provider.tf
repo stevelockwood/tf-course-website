@@ -1,7 +1,7 @@
 terraform {
   backend "gcs" {
-    bucket  = "roidtc-classroom900-tf-state"
-    prefix  = "terraform/state"
+    bucket = "roidtc-classroom900-tf-state"
+    prefix = "terraform/state"
   }
 
   required_providers {
